@@ -19,7 +19,7 @@ public class CharacterArray {
         arr2[3] = 'D';
         arr2[4] = 'E';
         for(char i:arr2){
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 }
