@@ -1,11 +1,10 @@
-
+// write a program to show multiple inheritance in java using interface.
 interface Grandfather {
 
     void grandfathersMethod();// abstract method. abstract method does not have a body.
 }
 
 interface Father {
-
     void fathersMethod();
 }
 
