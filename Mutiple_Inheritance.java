@@ -19,7 +19,7 @@ class Child implements Grandfather, Father {
     }
 }
 
-interface MutipleInheritance {
+interface Mutiple_Inheritance {
 
     public static void main(String[] args) {
         Child obj = new Child();// creating object of child class
