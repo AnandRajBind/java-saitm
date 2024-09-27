@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-// prime number are nattural number that are divisible by only 1 and itself.
+// prime number are a natural number that are divisible by only 1 and itself.
 public class PrimeNumber {
 
   public void Prime(int num) {
         int prime = 0;
-
         for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
                 prime++;
