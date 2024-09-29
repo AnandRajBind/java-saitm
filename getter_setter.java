@@ -2,23 +2,21 @@ class Employee {
     String name;
     int salary;
 
-    public String getName() {
-        return name;
-
-    }
-
-    public int getSalary() {
-        return salary;
-
-    }
-
     public void setName(String n) {
         name = n;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setSalary(int num) {
         salary = num;
     }
+    public int getSalary() {
+        return salary;
+    }
+
 
 }
 // problem 2
@@ -44,7 +42,7 @@ public class getter_setter {
         System.out.println(nam);// method first
 
         System.out.println(emp.getName());// method second
-        System.out.println(emp.getSalary());
+        System.out.println(emp.getSalary() +" $");
 
         // problem 2
 Square sq=new Square();
@@ -52,5 +50,5 @@ sq.side = 4;
 System.out.println(sq.area());
 System.out.println(sq.perimeter());
 
-    }
+}
 }
