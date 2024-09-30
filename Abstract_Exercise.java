@@ -119,7 +119,6 @@ obj.disconnect();
 
 interface TvRemote {
     void switchOn();
-
     void switchOff();
 }
 
@@ -128,19 +127,19 @@ interface SmartTvRemote extends TvRemote {
 }
 
 class Tv implements TvRemote {
-  public  void switchOn() {
-System.out.println("Switching on the TV");
+    public void switchOn() {
+        System.out.println("Switching on the TV");
     }
 
-  public  void switchOff() {
-System.out.println("Switching off the TV");
+    public void switchOff() {
+        System.out.println("Switching off the TV");
     }
 }
+
 public class Abstract_Exercise {
     public static void main(String[] args) {
-        Tv obj=new Tv();
+        Tv obj = new Tv();
         obj.switchOn();
         obj.switchOff();
     }
 }
-
