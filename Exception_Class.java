@@ -14,6 +14,17 @@ class MyException extends Exception {
         return "I am getMessage()";
     }
 }
+class MaxAgeException extends Exception {
+    @Override
+    public String toString() {
+        return "Age cannot be greater than 125";
+    }
+
+    @Override
+    public String getMessage() {
+        return "make sure that the value of age enterd is correct ";
+    }
+}
 
 public class Exception_Class {
     public static void main(String args[]) throws MyException {
