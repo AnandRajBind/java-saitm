@@ -5,10 +5,10 @@ class NegativeRadiusException extends Exception {
         return "Radius cannot be negative ";
     }
 
-    // @Override
-    // public String getMessage() {
-    //     return "Radius cannot be negative";
-    // }
+    @Override
+    public String getMessage() {
+        return "Radius cannot be negative";
+    }
 }
 
 
