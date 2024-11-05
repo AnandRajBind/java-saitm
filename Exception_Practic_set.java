@@ -3,11 +3,6 @@ import java.util.Scanner;
 
 class Exception_Practic_set {
 
-
-
-
-
-
     public static void main(String[] args) {
         // problem 1***************************************************************
         // syntax error-> int name= anand;
@@ -30,14 +25,19 @@ class Exception_Practic_set {
          * }
          */
         // problm 3
+       
 
-        class CustomException extends Exception {// custom exception 
-            public  String getMessage() {
-                return "error Invalid array index or Custom Exception";
-            }
-        }
-
-
+/* 
+        class Throw_Throws {
+            
+              if (r<0) {
+                       throw new NegativeRadiusException(); 
+              }
+                 
+              double result = Math.PI * r * r;
+              return result;
+          }
+*/
         int marks[] = new int[3];
         marks[0] = 10;
         marks[1] = 20;
@@ -61,9 +61,17 @@ class Exception_Practic_set {
 
             }
         }
-        if (i >= 5) {
-         throw new  CustomException();
+
+        class CustomException extends Exception {// custom exception 
+            public  String getMessage() {
+                return "error Invalid array index or Custom Exception";
+            }
         }
 
+             if (i >= 5) {
+             throw new  CustomException();
+            }
+        
+   
     }
 }
