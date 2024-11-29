@@ -14,6 +14,5 @@ public class TrianglePattern1 {
             }
             System.out.println();
         }
-
     }
 }

@@ -124,6 +124,5 @@ switch (result) {
     default:
 System.out.println("Invalid Input ");
 }
-
 }
 }
